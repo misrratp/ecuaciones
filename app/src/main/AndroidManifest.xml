@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ecuaciones">
         <activity
-            android:name=".MainActivity"
+            android:name=".ecu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitylogin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
             var resul1 = ((b * b) - 4 * (a * c))
             if (resul1 < 0) {
                 Toast.makeText(this, "No se puede porque es 0", Toast.LENGTH_SHORT).show()
+
             } else if (resul1 === 0.0) {
                 x1 = (-b) / (2 * a)
                 x2 = x1
